@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: horse - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ZERO\AppData\Local\Temp\RSPBA15.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/horse.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC\horse\1.cpp"
+]
+Creating command line "cl.exe @C:\Users\ZERO\AppData\Local\Temp\RSPBA15.tmp" 
+Creating temporary file "C:\Users\ZERO\AppData\Local\Temp\RSPBA16.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/horse.pdb" /debug /machine:I386 /out:"Debug/horse.exe" /pdbtype:sept 
+.\Debug\1.obj
+]
+Creating command line "link.exe @C:\Users\ZERO\AppData\Local\Temp\RSPBA16.tmp"
+<h3>Output Window</h3>
+Compiling...
+1.cpp
+e:\vc\horse\1.cpp(92) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+Linking...
+
+
+
+<h3>Results</h3>
+horse.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
